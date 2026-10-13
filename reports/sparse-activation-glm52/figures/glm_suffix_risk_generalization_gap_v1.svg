@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650" role="img" aria-labelledby="title desc">
+  <title id="title">GLM-5.2 expert approximation generalization gap at layer 8</title>
+  <desc id="desc">The suffix-sensitivity teacher remains above the 0.90 external AUC gate, while the PCA-24 student falls from 0.926 sealed AUC to 0.818 external AUC.</desc>
+  <rect width="1100" height="650" fill="#0b1020"/>
+  <text x="550" y="48" fill="#f8fafc" font-family="Arial, sans-serif" font-size="27" font-weight="700" text-anchor="middle">GLM-5.2 Expert Approximation: Generalization Gap</text>
+  <text x="550" y="79" fill="#94a3b8" font-family="Arial, sans-serif" font-size="17" text-anchor="middle">Layer 8, 64 sealed states and 64 external prompt-disjoint states</text>
+
+  <line x1="120" y1="500" x2="1030" y2="500" stroke="#64748b" stroke-width="2"/>
+  <line x1="120" y1="120" x2="120" y2="500" stroke="#64748b" stroke-width="2"/>
+
+  <g fill="#94a3b8" font-family="Arial, sans-serif" font-size="15">
+    <text x="105" y="505" text-anchor="end">0.75</text>
+    <text x="105" y="429" text-anchor="end">0.80</text>
+    <text x="105" y="353" text-anchor="end">0.85</text>
+    <text x="105" y="277" text-anchor="end">0.90</text>
+    <text x="105" y="201" text-anchor="end">0.95</text>
+    <text x="105" y="125" text-anchor="end">1.00</text>
+  </g>
+  <g stroke="#334155" stroke-width="1">
+    <line x1="120" y1="424" x2="1030" y2="424"/>
+    <line x1="120" y1="348" x2="1030" y2="348"/>
+    <line x1="120" y1="272" x2="1030" y2="272"/>
+    <line x1="120" y1="196" x2="1030" y2="196"/>
+    <line x1="120" y1="120" x2="1030" y2="120"/>
+  </g>
+
+  <line x1="120" y1="272" x2="1030" y2="272" stroke="#f43f5e" stroke-width="3" stroke-dasharray="10 8"/>
+  <text x="1025" y="260" fill="#fda4af" font-family="Arial, sans-serif" font-size="15" text-anchor="end">External gate: 0.90</text>
+
+  <rect x="245" y="158.5" width="125" height="341.5" rx="5" fill="#38bdf8"/>
+  <rect x="385" y="197.1" width="125" height="302.9" rx="5" fill="#f59e0b"/>
+  <rect x="650" y="232.3" width="125" height="267.7" rx="5" fill="#38bdf8"/>
+  <rect x="790" y="397.2" width="125" height="102.8" rx="5" fill="#f59e0b"/>
+
+  <g fill="#f8fafc" font-family="Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle">
+    <text x="307.5" y="145">0.975</text>
+    <text x="447.5" y="184">0.949</text>
+    <text x="712.5" y="219">0.926</text>
+    <text x="852.5" y="384">0.818</text>
+  </g>
+
+  <g fill="#e2e8f0" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">
+    <text x="377.5" y="535">Suffix-sensitivity teacher</text>
+    <text x="782.5" y="535">PCA-24 student</text>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="16">
+    <rect x="300" y="575" width="22" height="16" rx="2" fill="#38bdf8"/>
+    <text x="332" y="589" fill="#e2e8f0">Sealed prompt-held-out</text>
+    <rect x="570" y="575" width="22" height="16" rx="2" fill="#f59e0b"/>
+    <text x="602" y="589" fill="#e2e8f0">External prompt-disjoint</text>
+  </g>
+
+  <text x="28" y="315" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="17" text-anchor="middle" transform="rotate(-90 28 315)">AUC for downstream forward KL &gt; 1e-4</text>
+  <text x="1070" y="625" fill="#64748b" font-family="Arial, sans-serif" font-size="13" text-anchor="end">Titans Forge / Science Forge, 2026-07-29</text>
+</svg>

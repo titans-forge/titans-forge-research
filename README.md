@@ -8,8 +8,9 @@ Practical research about artificial intelligence, work and the infrastructure ar
 | --- | --- | --- |
 | Data centers: who pays? | Who covers grid costs if a large project is delayed or falls short? | [Full report and brief](reports/data-centers/) |
 | AI, jobs and independent ownership | How can people own productive tools and find their footing when work changes? | [Full report and brief](reports/ai-and-jobs/) |
+| Sparse activation and GLM-5.2 | What have we measured about expert streaming on consumer Apple Silicon? | [Evidence package](reports/sparse-activation-glm52/) |
 
-Each report has an online version and a downloadable PDF. The short briefs give readers an accessible entry point; the full reports retain the research framework, references, historical results and limitations.
+The policy reports have online versions and downloadable PDFs. The sparse-activation section provides Markdown research notes, aggregate JSON evidence, a figure and an executable consistency verifier. Each retains its evidence dates and limitations.
 
 ## About this edition
 

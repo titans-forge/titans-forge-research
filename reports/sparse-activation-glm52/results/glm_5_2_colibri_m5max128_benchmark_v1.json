@@ -1,0 +1,164 @@
+{
+  "schema": "public_glm52_colibri_m5max128_benchmark_v1",
+  "release_date": "2026-07-31",
+  "hardware": {
+    "machine_class": "Apple M5 Max",
+    "marketing_memory_class_gb": 128,
+    "cpu_cores_reported": 18,
+    "unified_memory_gb_reported": 137.4
+  },
+  "model": {
+    "repository": "mastouri/GLM-5.2-colibri-int4-g64-with-int8-mtp",
+    "config_sha256": "22e49334abf8562fecf70ca3292ba3f5b33f5602fb2bf10b52dd64a66cfe65ff"
+  },
+  "source": {
+    "chain_abbrev": [
+      "ecade075",
+      "18568e8",
+      "208a115",
+      "de85d2e"
+    ],
+    "chain_full": [
+      "ecade075cfc2eae684097ea7de5570c3786ce199",
+      "18568e8084db1fe5efdc8804229c616dfa192450",
+      "208a11522d15dc0333b95d132f51cffb1bff3a6a",
+      "de85d2e27006b2c8c3790b91ff597aeb6dc1fff1"
+    ]
+  },
+  "generation": {
+    "context_tokens": 4096,
+    "max_generated_tokens": 64,
+    "temperature": 0,
+    "generated_tokens": 64
+  },
+  "release_profile": {
+    "name": "m5max-128",
+    "settings": {
+      "cap": 32,
+      "ram_gb": 96,
+      "metal": true,
+      "pipeline": true,
+      "pipeline_workers": 8,
+      "direct_io": true,
+      "mtp": false,
+      "autopin": false,
+      "cap_raise": false
+    },
+    "runs": [
+      {
+        "run": 1,
+        "prefill_seconds": 16.05,
+        "decode_seconds": 70.58,
+        "decode_tokens_per_second": 0.91,
+        "rss_gb": 59.35,
+        "expert_hit_rate_percent": 54.2,
+        "expert_bytes_fetched_gb": 367.236,
+        "metal_cpu_fallbacks": 0,
+        "exit_code": 0
+      },
+      {
+        "run": 2,
+        "prefill_seconds": 15.68,
+        "decode_seconds": 69.62,
+        "decode_tokens_per_second": 0.92,
+        "rss_gb": 59.29,
+        "expert_hit_rate_percent": 54.2,
+        "expert_bytes_fetched_gb": 367.236,
+        "metal_cpu_fallbacks": 0,
+        "exit_code": 0
+      },
+      {
+        "run": 3,
+        "prefill_seconds": 15.27,
+        "decode_seconds": 70.37,
+        "decode_tokens_per_second": 0.91,
+        "rss_gb": 59.33,
+        "expert_hit_rate_percent": 54.2,
+        "expert_bytes_fetched_gb": 367.236,
+        "metal_cpu_fallbacks": 0,
+        "exit_code": 0
+      }
+    ],
+    "aggregate": {
+      "sample_size": 3,
+      "median_prefill_seconds": 15.68,
+      "median_decode_seconds": 70.37,
+      "median_decode_tokens_per_second": 0.91,
+      "decode_tokens_per_second_range": [
+        0.91,
+        0.92
+      ],
+      "median_rss_gb": 59.33,
+      "median_expert_hit_rate_percent": 54.2,
+      "all_runs_zero_cpu_fallbacks": true
+    }
+  },
+  "controls": {
+    "same_head_cpu_only": {
+      "source_commit": "de85d2e27006b2c8c3790b91ff597aeb6dc1fff1",
+      "configuration_difference": "COLI_METAL=0",
+      "sample_size": 1,
+      "prefill_seconds": 19.84,
+      "decode_seconds": 92.48,
+      "decode_tokens_per_second": 0.69,
+      "rss_gb": 59.32,
+      "profile_to_control_speedup_from_decode_time": 1.31,
+      "exit_code": 0
+    },
+    "upstream_matched_settings": {
+      "source_commit": "ecade075cfc2eae684097ea7de5570c3786ce199",
+      "settings_matched_to_release_profile": true,
+      "sample_size": 1,
+      "prefill_seconds": 24.42,
+      "decode_seconds": 96.08,
+      "decode_tokens_per_second": 0.67,
+      "rss_gb": 59.33,
+      "profile_to_control_speedup_from_decode_time": 1.37,
+      "exit_code": 0
+    },
+    "upstream_out_of_box": {
+      "source_commit": "ecade075cfc2eae684097ea7de5570c3786ce199",
+      "sample_size": 1,
+      "prefill_seconds": 37.9,
+      "decode_seconds": 454.57,
+      "decode_tokens_per_second": 0.14,
+      "rss_gb": 69.04,
+      "expert_hit_rate_percent": 65.7,
+      "expert_bytes_fetched_gb": 269.611,
+      "runtime_settings_observed": {
+        "backend": "CPU",
+        "mtp": true,
+        "mtp_acceptance_percent": 80,
+        "pipeline": false,
+        "direct_io": false,
+        "pinned_expert_gb": 47.2,
+        "effective_cache_cap_per_layer": 28
+      },
+      "profile_to_control_speedup_from_decode_time": 6.46,
+      "exit_code": 0
+    }
+  },
+  "acceptance": {
+    "grouped_int4_metal_acceptance_exit_code": 0,
+    "profile_resource_tests_passed": 40,
+    "grouped_int4_representative_max_abs_error": 0.00000119,
+    "grouped_int4_tail_group_max_abs_error": 0.000000209
+  },
+  "interpretation": {
+    "primary_speedup": "6.46x end-to-end profile comparison versus one upstream out-of-box run; not a pure Metal-kernel speedup",
+    "matched_source_speedup": "1.37x versus upstream ecade075 with release-profile settings",
+    "same_head_metal_speedup": "1.31x versus the same de85d2e head with Metal disabled",
+    "release_candidate_factors": [
+      "grouped-int4 Metal support",
+      "elimination of the residual per-layer Metal CPU fallback",
+      "deterministic m5max-128 profile defaults"
+    ],
+    "limitations": [
+      "The upstream out-of-box, upstream matched-settings, and same-head CPU-only controls each have sample size n=1.",
+      "The upstream out-of-box auto-configuration depends on available memory and usage history.",
+      "No claim is made about quality parity with the official higher-precision GLM-5.2 checkpoint.",
+      "Observed RSS is process memory and does not include the complete on-disk expert bank.",
+      "No SAOD, broad coding qualification, or consumer trillion-parameter feasibility claim is made."
+    ]
+  }
+}

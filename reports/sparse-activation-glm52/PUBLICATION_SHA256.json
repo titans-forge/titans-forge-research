@@ -1,0 +1,14 @@
+{
+  "CONSUMER_TRILLION_MOE_RESEARCH_REPORT_V1.md": "252b62168aee100ebea83da0a7e2b39f31b7e8b9c1959c763d724aa88d7880a4",
+  "GLM_5_2_COLIBRI_GROUPED_INT4_METAL_20260731.md": "56aa872da6049a094ae388978cd2969fef34b2d091295db0f4b2748334802c58",
+  "GLM_5_2_EXPERT_APPROXIMATION_SAFETY_NOTE_20260729.md": "8d04d8f53dce28a7df497ba9f5056b5f253c46a3c0ed309286d54bc1ef9dec45",
+  "GLM_STREAMING_SAFETY_CHALLENGE_V1.md": "34ab5ff2c08c8fb9c1a12dc24aaf5270598d3b1fbc25fddba30d6040c1f21618",
+  "PUBLICATION_SCOPE.md": "f3e65eacb38e57c8dcc75014aec773dd0d7531673e659355879b63b25386c849",
+  "README.md": "998c4e6e1e5dedeb6b5ac3f247b2354c4ee4dd72ad2a7fafadada201215ab37a",
+  "figures/glm_suffix_risk_generalization_gap_v1.svg": "36de30f598d8d3578b02720f271bc908b15ba63d7960d16d63a34b06461fb3fb",
+  "results/glm_5_2_colibri_m5max128_benchmark_v1.json": "322a376b8443e8c10e586df9306ea6bf12af1d188cddf14a81a51163b8cb1f04",
+  "results/glm_5_2_suffix_risk_external_validation_v1.json": "bde743388fbc26034a9146d78cdde07aeaaa1c438d7eef204638e942b94d9612",
+  "results/router_native_prefetch_admission_sweep_v1.json": "d931f38309d23df6a959dedad6f9d004b16c66ca8c10d29ca888f3c75751fca8",
+  "results/router_native_prefetch_blend_sweep_v1.json": "bdd3f90ab76661b1b2aa5d077e5fce3e1349551faf780bc53a16440103893220",
+  "verify_glm_5_2_colibri_m5max128_release.py": "11c8b58e148366075020064b2ae1dc8d00a743a958570c2a98d5e8b442172a41"
+}

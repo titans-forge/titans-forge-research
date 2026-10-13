@@ -1,0 +1,145 @@
+{
+  "schema": "titans_forge.glm_5_2_suffix_risk_external_validation.v1",
+  "recorded_date": "2026-07-29",
+  "model": "GLM-5.2",
+  "target_layer": 8,
+  "partition": {
+    "decode_calls_per_prompt_group": 8,
+    "external_holdout_consumed": true,
+    "external_prompt_groups": [
+      3,
+      7,
+      11,
+      15,
+      19,
+      23,
+      27,
+      31
+    ],
+    "external_state_count": 64,
+    "sealed_prompt_groups": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "sealed_state_count": 64
+  },
+  "frozen_thresholds": {
+    "coverage_minimum": 0.2,
+    "external_auc_kl_gt_1e_4_minimum": 0.9,
+    "external_false_negative_rate_maximum": 0.05,
+    "strict_teacher_scale_threshold": 0.6025160573383939
+  },
+  "external_teacher": {
+    "auc_kl_gt_1e_3": 0.98148,
+    "auc_kl_gt_1e_4": 0.94928,
+    "coverage": 0.5,
+    "false_negative_rate": 0.0,
+    "false_negatives": 0,
+    "harmful_states": 18,
+    "spearman_vs_log_forward_kl": 0.88036,
+    "status": "decision_grade"
+  },
+  "fixed_students_external": {
+    "combined_ridge_8": {
+      "auc_kl_gt_1e_3": 0.7240740740740741,
+      "auc_kl_gt_1e_4": 0.748792270531401,
+      "coverage": 0.296875,
+      "false_negative_rate": 0.05555555555555555,
+      "false_negatives": 1,
+      "prediction_sha256": "ca18b602a9b9543de484b145d5bb24cd19fd0d06553f868df6f3537526df774f",
+      "teacher_spearman": 0.558974358974359
+    },
+    "pca_ridge_16": {
+      "auc_kl_gt_1e_3": 0.8240740740740741,
+      "auc_kl_gt_1e_4": 0.8091787439613527,
+      "coverage": 0.328125,
+      "false_negative_rate": 0.05555555555555555,
+      "false_negatives": 1,
+      "prediction_sha256": "c43642cf87c857bc45211063b874f971a3123819a1fa99962dd40368dfe40580",
+      "teacher_spearman": 0.609065934065934
+    },
+    "pca_ridge_24": {
+      "auc_kl_gt_1e_3": 0.8685185185185185,
+      "auc_kl_gt_1e_4": 0.8176328502415459,
+      "coverage": 0.40625,
+      "false_negative_rate": 0.05555555555555555,
+      "false_negatives": 1,
+      "prediction_sha256": "e018fa483f47a8b33f34119c01a260d2158f1ac94e97cf9e55357fa9f66d463d",
+      "teacher_spearman": 0.6254578754578755
+    },
+    "pca_ridge_8": {
+      "auc_kl_gt_1e_3": 0.7814814814814814,
+      "auc_kl_gt_1e_4": 0.8007246376811594,
+      "coverage": 0.375,
+      "false_negative_rate": 0.05555555555555555,
+      "false_negatives": 1,
+      "prediction_sha256": "6a4d9dcd840899d232156c8601ebc7cdb95d65eb97ffb3eb7a965d94b8c34215",
+      "teacher_spearman": 0.7194139194139194
+    },
+    "scalar_ridge": {
+      "auc_kl_gt_1e_3": 0.5796296296296296,
+      "auc_kl_gt_1e_4": 0.5495169082125604,
+      "coverage": 0.203125,
+      "false_negative_rate": 0.1111111111111111,
+      "false_negatives": 2,
+      "prediction_sha256": "896c5a0742e6417b7f818b6151990921e606c505f7eebdfcd0f7f810ca933a66",
+      "teacher_spearman": 0.22426739926739928
+    }
+  },
+  "pca_24_sealed": {
+    "auc_kl_gt_1e_3": 0.9017857142857143,
+    "auc_kl_gt_1e_4": 0.9261133603238867,
+    "coverage": 0.3125,
+    "false_negative_rate": 0.02631578947368421,
+    "false_negatives": 1,
+    "teacher_spearman": 0.7277472527472527
+  },
+  "pca_24_external_gate": {
+    "auc_pass": false,
+    "coverage_pass": true,
+    "false_negative_rate_pass": false,
+    "status": "fail"
+  },
+  "pca_24_external_false_negative": {
+    "decode_call_index": 0,
+    "forward_kl": 0.0003569032389108194,
+    "predicted_score": 0.5369288153453493,
+    "prompt_group": 3,
+    "teacher_sensitivity": 0.8819167685164565
+  },
+  "governance": {
+    "external_teacher_instrument_commit": "8b9b1282850b0a80b39e93bb7cec7584a0dba9d7",
+    "student_approval_state": "awaiting_human_review",
+    "student_independent_verification": "pass",
+    "student_owned_test_gap": "The candidate has five owned tests; broader adversarial coverage is required before promotion.",
+    "student_status": "provisional_read_only_external_evaluation"
+  },
+  "artifact_sha256": {
+    "causal_external_report": "89c2d045a4ff17b77105a280620190b2b73211c84956be9a33f9b337a2199a5c",
+    "capture_external_batch_0_7": "6c8e2c101deacfdb9548122a0c0591a964b82fbc02778ea78c2796dc4221524e",
+    "capture_external_batch_16_23": "24fc4606e1c027590bc21cb4eeaded29c3ca459e2be0177f7a030e8565d7a349",
+    "capture_external_batch_24_31": "bcf1c4ec42b4afa53760533b21de384b95d69e82808b269ed7f1ccd05c3a531e",
+    "capture_external_batch_8_15": "6e1d3f812e0dc076fc0c205414b21289fedad56fe29a39b96fcec54904d1fce8",
+    "external_decision_report": "a309a1532712e0b1dd534d7d83f6450e1728c74fe5067d4f6818963a5e7e0173",
+    "external_holdout_protocol": "93f8e832c862aabdf86d10eb6c6a1758cacce59143ca90306aa8f2469612c816",
+    "external_teacher_batch_a": "2222332669e9e7fe8f700414fa92a1ac64796a6564590395bcdf9cdb441abfe9",
+    "external_teacher_batch_b": "673afea573f1b1458d513db488575bbb44eb15190f91f4a0f1f69df7a10a8e29",
+    "external_teacher_batch_c": "cf037e5687a1ac7022774bb82cad905729b52bd62b41fc71f17e45b950c3c6d0",
+    "promoted_teacher_instrument": "302af6fb0fd25adda473debee413f0ef9dba5b0fa348832475594eb75ed34969",
+    "provisional_student_source": "160dee5b3d1142f974491414c0eb964d53bec7572d8dccf18e0751d063c4311b",
+    "uncertainty_external_report": "dadd3286ada141a5900e01ab3202689e6a0d93e952be2b9f299aaf3de5905a5e"
+  },
+  "nonclaims": [
+    "No sub-100 GB GLM-5.2 runtime is established.",
+    "No external runtime or compression method is evaluated.",
+    "No multilayer composition safety is established.",
+    "No task-level quality preservation is established.",
+    "The student is not promoted or deployed."
+  ]
+}
