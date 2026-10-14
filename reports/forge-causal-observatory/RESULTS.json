@@ -1,0 +1,128 @@
+{
+  "agent_passes": 0,
+  "cheap_passes": 1,
+  "cloud_calls": 0,
+  "generated_tokens": 20,
+  "local_generation_calls": 3,
+  "research_only": true,
+  "rows": [
+    {
+      "choice": 16,
+      "gates": {
+        "agent": {
+          "complement_damage": true,
+          "least_complement_damage": 0.9016393442622951,
+          "pass": false,
+          "preservation": false,
+          "worst_keep_accuracy": 0.7049180327868853,
+          "worst_keep_agreement": 0.7049180327868853
+        },
+        "cheap": {
+          "complement_damage": true,
+          "least_complement_damage": 0.9016393442622951,
+          "pass": false,
+          "preservation": false,
+          "worst_keep_accuracy": 0.9180327868852459,
+          "worst_keep_agreement": 0.9180327868852459
+        }
+      },
+      "generated_tokens": 7,
+      "keep": {
+        "agent": [
+          46,
+          50,
+          43
+        ],
+        "cheap": [
+          61,
+          61,
+          56
+        ]
+      },
+      "seed": 211
+    },
+    {
+      "choice": 16,
+      "gates": {
+        "agent": {
+          "complement_damage": true,
+          "least_complement_damage": 0.8852459016393442,
+          "pass": false,
+          "preservation": false,
+          "worst_keep_accuracy": 0.8524590163934426,
+          "worst_keep_agreement": 0.8524590163934426
+        },
+        "cheap": {
+          "complement_damage": true,
+          "least_complement_damage": 0.8688524590163934,
+          "pass": true,
+          "preservation": true,
+          "worst_keep_accuracy": 1.0,
+          "worst_keep_agreement": 1.0
+        }
+      },
+      "generated_tokens": 7,
+      "keep": {
+        "agent": [
+          54,
+          55,
+          52
+        ],
+        "cheap": [
+          61,
+          61,
+          61
+        ]
+      },
+      "seed": 223
+    },
+    {
+      "choice": 6,
+      "gates": {
+        "agent": {
+          "complement_damage": true,
+          "least_complement_damage": 0.9016393442622951,
+          "pass": false,
+          "preservation": false,
+          "worst_keep_accuracy": 0.639344262295082,
+          "worst_keep_agreement": 0.639344262295082
+        },
+        "cheap": {
+          "complement_damage": true,
+          "least_complement_damage": 0.8852459016393442,
+          "pass": false,
+          "preservation": false,
+          "worst_keep_accuracy": 0.8852459016393442,
+          "worst_keep_agreement": 0.8852459016393442
+        }
+      },
+      "generated_tokens": 6,
+      "keep": {
+        "agent": [
+          40,
+          46,
+          39
+        ],
+        "cheap": [
+          60,
+          61,
+          54
+        ]
+      },
+      "seed": 227
+    }
+  ],
+  "schema": "forge_observatory_public_results_v1",
+  "seeds": [
+    211,
+    223,
+    227
+  ],
+  "study": "paired_pilot_17",
+  "thresholds": {
+    "complement_damage_floor": 0.25,
+    "preservation_floor": 0.95,
+    "quality_floor": 0.99
+  },
+  "training_domain_only": true
+}

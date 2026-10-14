@@ -1,0 +1,22 @@
+{
+  "approval": "Owner authorized publication with Forge licensing and explicitly confirmed: Public hosting/distribution only, like the games.",
+  "covered_path": "reports/forge-causal-observatory/",
+  "educational_exemption": "Genuine educational institutions for teaching/research, per LICENSE section 4",
+  "license": "Forge Research Hosting and Distribution License 1.0",
+  "license_sha256": "24ffa19ac67c85c7a46be479a3987d59fff1d3c54e5e99f3f1785188edf5e2c8",
+  "other_repository_reports_relicensed": false,
+  "policy_reference": "https://github.com/titans-forge/Titans-of-Proxima/blob/main/LICENSE",
+  "policy_reference_blob_sha": "07c6b2e708bcda7e324d85b3ab8f9a7b0d351ed1",
+  "previous_review_license_sha256": "7edd7a2a6732c03d91a1bed16659fd63a67d8f3432496d2cf3ac6303ee8b8a0f",
+  "prior_grants_preserved": true,
+  "private_internal_use_free_regardless_of_revenue": true,
+  "public_hosting_distribution_revenue_threshold_usd": 1000000,
+  "recorded_date": "2026-10-14",
+  "release": "Forge Causal Observatory",
+  "release_id": "FR-LIC-20261014-OBSERVATORY-010",
+  "repository": "titans-forge/titans-forge-research",
+  "schema": "forge_research_license_checkpoint_v1",
+  "third_party_terms_preserved": true,
+  "threshold_strictly_greater_than": true,
+  "version": "0.1.0"
+}

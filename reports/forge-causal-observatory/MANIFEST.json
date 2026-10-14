@@ -1,0 +1,71 @@
+{
+  "files": {
+    ".gitignore": {
+      "bytes": 42,
+      "sha256": "302c51b19890ac268bdd1ad8a02dd10221e675ca13a595450f9e432c281ced71"
+    },
+    "EXPORT.md": {
+      "bytes": 2597,
+      "sha256": "b217399cb629fbc5a3ccd5ffc25535ad71b035d6f71cc632a2c3df4f9d14d11e"
+    },
+    "LICENSE": {
+      "bytes": 4602,
+      "sha256": "24ffa19ac67c85c7a46be479a3987d59fff1d3c54e5e99f3f1785188edf5e2c8"
+    },
+    "LICENSING.md": {
+      "bytes": 1485,
+      "sha256": "a602fe49c38969271461bdd710e4c9d6f65f6e7ab8df2ebed9627b765c67a3e4"
+    },
+    "LICENSING_CHECKPOINT.json": {
+      "bytes": 1277,
+      "sha256": "b8f34871d86ce1b6160c6488dfa86121f4768034ea8840fa8bb844e8ec361827"
+    },
+    "METHODS.md": {
+      "bytes": 4080,
+      "sha256": "aee86f1df1d648c02f02a3e6f52c18c5e9c20c0a01e39e352e0ce0736b8aeab4"
+    },
+    "README.md": {
+      "bytes": 3078,
+      "sha256": "98bf6f2c0ff8a5fbcd5955003dcb64e9f216a6db031917cb6d47142674737425"
+    },
+    "RELEASE_NOTES.md": {
+      "bytes": 955,
+      "sha256": "4019f74aab30ba43fd853ed4d315cf10810ace03f35851c6d920a3c77da4e02f"
+    },
+    "RESULTS.json": {
+      "bytes": 2944,
+      "sha256": "bac6c5ac7f026c3463d5ca1f9ef8d4327a26ccc3dfd8e73158433e1bdf13727d"
+    },
+    "RESULTS.md": {
+      "bytes": 2961,
+      "sha256": "a99324cae478023a2dcb133f067347b4aedaa08f95a45d82d0062716a3b75515"
+    },
+    "THIRD_PARTY_NOTICES.md": {
+      "bytes": 1242,
+      "sha256": "ca4826e80ca8ade5830e1d719543b97da3c92c054cb6158507c2e709fbbd7822"
+    },
+    "evidence/seed_211.json": {
+      "bytes": 1166804,
+      "sha256": "9782f170f1a3c78a8b9749331df6ff4e5ecd99c1e59562f2f1cc2a21d7a99410"
+    },
+    "evidence/seed_223.json": {
+      "bytes": 1171237,
+      "sha256": "9f02122341b816eb9e11ab392a64ab67bccf983926e5f3fb23969aa5da2d952f"
+    },
+    "evidence/seed_227.json": {
+      "bytes": 1170152,
+      "sha256": "20cb1eb1e07d4f195d4b7b9db1ee53c56eca77367342c48024e357f4c4ba1675"
+    },
+    "scripts/verify.py": {
+      "bytes": 23667,
+      "sha256": "bc088483c5b6c3c72aab92c29ba2b9fbacc778cf39a2657e25b189cf032564a5"
+    },
+    "tests/test_verify.py": {
+      "bytes": 5394,
+      "sha256": "0b11c2e266b221039bdb86573d5478dda28879f43622cf03a0b4c38381f37b3b"
+    }
+  },
+  "schema": "forge_observatory_public_manifest_v1",
+  "scope": "saved_evidence_verification",
+  "version": "0.1.0"
+}

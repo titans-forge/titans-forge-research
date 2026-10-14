@@ -1,0 +1,93 @@
+Forge Research Hosting and Distribution License 1.0
+Copyright (c) 2026 Titans Forge LLC.
+Owner approved: October 14, 2026.
+Release: Forge Causal Observatory v0.1.0, identified in LICENSING_CHECKPOINT.json.
+
+1. Covered Material
+
+This license applies only to the Titans Forge LLC ("Licensor") controlled
+code, documentation and synthetic evidence in this identified release,
+to the extent Licensor holds the necessary rights. It does not apply to
+other reports in the repository. Third-party material retains its own
+terms; see THIRD_PARTY_NOTICES.md. No trademark rights are granted.
+
+This license does not revoke permissions previously granted under MIT
+or another license. It does not claim exclusive rights in facts,
+mathematical ideas, uncopyrightable data or independent research.
+
+2. Free Use
+
+Subject to Sections 3-5, you may use, run, study, copy, modify and share
+the Covered Material without charge. Personal use, private internal
+company use and private classroom use remain free regardless of revenue.
+Reading, citing findings and discussing aggregate results without
+redistributing Covered Material do not require a commercial license.
+
+3. Commercial Public Hosting and Distribution
+
+A company with gross annual revenue strictly greater than US$1,000,000
+must obtain a separate written commercial license from Licensor before
+publicly hosting or distributing Covered Material. A company at exactly
+US$1,000,000 does not cross this threshold. This requirement applies
+whether the public offering is free or paid and regardless of revenue
+earned specifically from this material.
+
+Public hosting or distribution includes making Covered Material
+available to the public through websites, repositories, downloads,
+public services or products. Merely linking to the authorized official
+release is not public hosting or distribution of Covered Material.
+Private internal use is not public hosting or distribution.
+
+For this threshold, gross annual revenue includes the company and its
+controlled subsidiaries for the most recently completed fiscal year.
+Non-USD revenue is converted using that year's average exchange rate
+from a recognized public financial source.
+
+Earlier license grants remain effective for the material they covered.
+The exemptions and platform authorization in Section 4 also apply.
+
+4. Educational Exemption and Official Distribution
+
+Genuine schools, universities and nonprofit educational institutions
+may publicly host or distribute Covered Material for teaching or
+research without a commercial license, regardless of their revenue
+or budget. Ordinary tuition and educational fees do not remove this
+exemption. It does not cover commercial resale disguised as education
+or a business distributing through an institution to avoid Section 3.
+
+Licensor authorizes GitHub to host and distribute Licensor's official
+upload under the permissions needed by GitHub's platform terms.
+Existing platform distribution authorizations are not revoked.
+This does not separately authorize an independent company above the
+threshold to offer its own public mirror, service or distribution.
+
+5. Notices and Modified Releases
+
+Copies and distributions must retain this license, copyright notices,
+release identification and applicable third-party notices. Identify
+material modifications and do not represent modified material as the
+unmodified official release or imply Licensor's endorsement.
+Recipients remain subject to this license for Covered Material.
+Do not remove notices that preserve earlier or third-party grants.
+
+6. Research Limitations, Warranty and Liability
+
+This is research material, not a validated operational, medical,
+safety-critical or commercial decision system. No performance,
+fitness, reproducibility or accuracy guarantee is made. Preserve the
+documented scientific limitations when describing this release.
+
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, COVERED MATERIAL IS PROVIDED
+"AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR IS NOT LIABLE FOR
+CLAIMS, DAMAGES OR OTHER LIABILITY ARISING FROM USE OF COVERED MATERIAL.
+These exclusions do not limit rights or liabilities that applicable
+law does not permit to be excluded.
+
+7. Commercial Arrangements
+
+A commercial license requires a separate written agreement. This
+document sets no commercial fee and does not itself grant the
+authorization required by Section 3. Contact Titans Forge LLC through
+https://www.titansforge.tech/ for commercial licensing inquiries.

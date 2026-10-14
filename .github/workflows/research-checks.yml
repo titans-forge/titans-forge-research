@@ -8,3 +8,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 tools/check_sparse_publication.py
+  observatory-evidence:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: reports/forge-causal-observatory
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -B scripts/verify.py
+      - run: python3 -B -m unittest discover -s tests -v
