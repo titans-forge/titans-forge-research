@@ -1,0 +1,23 @@
+{
+  "claim_scope": "research_only_not_clinical_validation",
+  "created_utc": "2026-10-15T17:19:53.344085+00:00",
+  "edition": "2026-10-15",
+  "files": {
+    "CORRECTIONS.md": "4ceb888b7cef70ef29d1bd7823902dfb9daa654d5f262369a3c8149fb7fe9335",
+    "README.md": "4fce586b6d97ab68b1d99834fe3c84ec47c6d9b239aca496efef0468423e7647",
+    "SOURCES.md": "7b0be9aa8cd067f4f519655acad87b0f3e913575ce95a10322dcbdf55a8ebc4e",
+    "evidence.json": "a833233685b3ee9d5d1c7059f9bc8d225ca41a603c85438aab7aaabcfc463ab7",
+    "mitochondrial-combination/README.md": "c6b76d81fd8a558f95404d915f6e64c47099f0be2c51ddf2c781ac88dce7cbb8",
+    "mitochondrial-combination/mito_combo_landscape.md": "13c4b47195fa99c21e21ac66c0b3bea381ce4575eec5faf1fc2fa6cc8be21a0e",
+    "mitochondrial-combination/muscle_fatigue_recovery.md": "32d320d84efc6144437e058b85a115ed6c5ac113fd27142cb294cfe7e338454d",
+    "mitochondrial-combination/neurocognitive_neurovascular.md": "51f3a250da2252a480ad75c8e06f971073c5d016a0ba5fca7575e43b110affcc",
+    "mitochondrial-combination/oxidative_inflammation_resilience.md": "160a71d9c173519307f0d12fee630f69ba5ff04d129296d44c56d90df810ce72",
+    "mitochondrial-combination/renal_vascular_metabolic.md": "d12e9471aa9546c18b6f7b2d85470a6beeff741cba041cb15560380b32e79152",
+    "mitochondrial-combination/safety_interactions_pilot_design.md": "cc54af251d0a79a154585c6b1449c48d88274e5736930455c892afb3b036070a",
+    "sleep-mitophagy/README.md": "3cdbc0d8213bd5f63c1c3a5ca59e092d7107f96eae3cbc5d00329ffc27511974",
+    "sleep-mitophagy/report.md": "f512192312e506ff25437dd5d0917bfd618d44541e7e595357f430f5b023a017",
+    "tests/test_verify.py": "c18f80c96ed17025f860aa6fb32e6bb3f46b1933aa798d2fd8abf2672d16d5f6",
+    "verify.py": "807d504f684ffb5722087060d818b74714bbcad90616c10f55d7d3bf0be024f5"
+  },
+  "schema": "forge_medical_publication_manifest_v1"
+}
