@@ -1,5 +1,13 @@
 # Version notes
 
+## October 15, 2026
+
+- Published six citation-corrected mitochondrial-combination reports and The Brain's Night Shift v6 as research-only Markdown manuscripts.
+- Corrected MitoQ/PQQ/CoQ10 attribution, reviews mislabeled as trials, the hydrogen/PQQ combined intervention and human-versus-preclinical classifications. Retained primary nulls and conflicting safety findings.
+- Withdrew contaminated heuristic scores, evidence-row totals and simulated detection probabilities. Replaced an unvalidated repair score with measurement-validation requirements; narrowed sleep biomarker claims.
+- Checked 34 DOI records against PubMed-linked metadata and abstracts; excluded four unresolved lookup requests without declaring them invalid. Full-text rubric appraisal and independent peer review are not claimed.
+- Added a source ledger, original bounded summaries, correction history, file manifest and portable offline verifier with 14 tests. No clinical experiments were run and no full texts, private case material or old Word/PDF drafts were published. Existing report terms remain unchanged.
+
 ## October 14, 2026
 
 - Published Forge Causal Observatory v0.1.0 with all three frozen paired trials: agent 0/3 causal passes, deterministic cheap baseline 1/3.

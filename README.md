@@ -1,6 +1,6 @@
 # Titans Forge research
 
-Practical research about artificial intelligence, work and the infrastructure around us.
+Practical research about artificial intelligence, work, medical science and the infrastructure around us.
 
 ## Start here
 
@@ -10,12 +10,18 @@ Practical research about artificial intelligence, work and the infrastructure ar
 | AI, jobs and independent ownership | How can people own productive tools and find their footing when work changes? | [Full report and brief](reports/ai-and-jobs/) |
 | Sparse activation and GLM-5.2 | What have we measured about expert streaming on consumer Apple Silicon? | [Evidence package](reports/sparse-activation-glm52/) |
 | Forge Causal Observatory | Does a local agent beat an equally budgeted deterministic causal selector? | [Saved-evidence release](reports/forge-causal-observatory/) |
+| Mitochondrial combination: six reports | What do component studies support, and what would an informative combination study need to test? | [Corrected research collection](reports/medical/mitochondrial-combination/) |
+| The Brain's Night Shift | Could sleep disruption and impaired mitochondrial quality control jointly identify cognitive vulnerability? | [Research hypothesis, v6](reports/medical/sleep-mitophagy/) |
 
 The policy reports have online versions and downloadable PDFs. The sparse-activation section provides Markdown research notes, aggregate JSON evidence, a figure and an executable consistency verifier. Each retains its evidence dates and limitations.
+
+The medical collection is a citation-audited, research-only Markdown edition with a source ledger, visible corrections and an offline consistency verifier. Its selected record/abstract review is not a systematic review, completed full-text rubric appraisal or clinical validation. Earlier Word/PDF drafts are not included in this corrected edition.
 
 The Observatory includes all three paired trials, synthetic evidence and a standard-library-only verifier. Agent passes: 0/3; cheap baseline: 1/3. This is saved-evidence verification, not a full experiment replay or evidence of agent advantage. Its [Forge license](reports/forge-causal-observatory/LICENSING.md) keeps private internal use free at any revenue level; companies above US$1 million/year need a separate license for public hosting/distribution. Other reports retain their existing terms.
 
 ## About this edition
+
+October 15, 2026 adds six corrected mitochondrial-combination research reports and The Brain's Night Shift v6. The edition corrects compound/study-type attribution, preserves primary null results and distinguishes biomarker concentrations from clearance and disease outcomes. Unsupported old rankings are withdrawn; no new clinical experiments were run.
 
 October 14, 2026 adds the Forge Causal Observatory v0.1.0 release. Its experiments were not rerun for publication.
 
